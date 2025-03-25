@@ -124,7 +124,24 @@
             "args": [
                 "run",
                 "examples/dialog_box"
-            ]
+            ],
+            "env": {
+                "DEBUG_FRONTEND": "1"
+            },
+        },
+        {
+            "name": "Dialog box sizes",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "hardpy.cli.cli",
+            "console": "integratedTerminal",
+            "args": [
+                "run",
+                "examples/dialog_box_sizes"
+            ],
+            "env": {
+                "DEBUG_FRONTEND": "1"
+            },
         },
         {
             "name": "Python: Example Attempts",
@@ -146,7 +163,10 @@
             "args": [
                 "run",
                 "examples/operator_msg"
-            ]
+            ],
+            "env": {
+                "DEBUG_FRONTEND": "1"
+            },
         },
         {
             "name": "Run Frontend",
