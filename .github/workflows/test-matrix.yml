@@ -42,11 +42,11 @@ jobs:
     strategy:
       matrix:
         include:
-          - pytest-version: "~=7.0.0"  # Автоматически выберет последнюю 7.x
+          - pytest-version: "~=7.0.0"
             python-version: "3.10"
           - pytest-version: "~=7.0.0"
             python-version: "3.12"
-          - pytest-version: "~=8.0.0"  # Автоматически выберет последнюю 8.x
+          - pytest-version: "~=8.0.0"
             python-version: "3.10"
           - pytest-version: "~=8.0.0"
             python-version: "3.13"
