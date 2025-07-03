@@ -12,12 +12,12 @@ jobs:
   
   test:
     name: Test
-    if: github.base_ref != 'ci-with-different-versions'
+    if: github.base_ref != 'ci-different-versions'
     uses: ./.github/workflows/test.yml
   
   test-matrix:
     name: Test Matrix
-    if: github.base_ref == 'ci-with-different-versions'
+    if: github.base_ref == 'ci-different-versions'
     uses: ./.github/workflows/test-matrix.yml
   
   build:
