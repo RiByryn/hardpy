@@ -1,0 +1,20 @@
+title = "HardPy TOML config"
+tests_name = "videotemplate"
+
+[database]
+user = "dev"
+password = "dev"
+host = "localhost"
+port = 5984
+
+[frontend]
+host = "localhost"
+port = 8000
+language = "ru"
+full_size_button = true
+# sound_on = false
+
+[frontend.modal_result]
+enable = true
+auto_dismiss_pass = true
+auto_dismiss_timeout = 5
