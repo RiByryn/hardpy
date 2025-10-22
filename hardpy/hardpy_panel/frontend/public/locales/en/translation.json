@@ -11,24 +11,39 @@
     "connection": "Establishing a connection... 🧐🔎",
     "dbError": "Database connection error. 🙅🏽‍♀️🚫",
     "noEntries": "No entries in the database 🙅🏽‍♀️🚫",
+    "stoppedTestCase": "Stopped Test Case",
+    "failedTestCases": "Failed Test Cases",
+    "modalResultDismissHint": "Click anywhere or press any key to dismiss",
+    "modalResultAutoDismissHint": "Auto-dismissing in {{seconds}} seconds...",
     "status": {
-      "ready": "ready",
-      "run": "run",
-      "passed": "pass",
-      "failed": "fail",
-      "stopped": "stopped",
-      "unknown": "unknown"
+      "ready": "Ready",
+      "run": "Run",
+      "passed": "Pass",
+      "failed": "Fail",
+      "stopped": "Stopped",
+      "unknown": "Unknown"
     }
   },
   "button": {
     "start": "Start",
     "stop": "Stop",
-    "confirm": "Confirm"
+    "confirm": "Confirm",
+    "pass": "Pass",
+    "fail": "Fail"
   },
   "error": {
     "dbConnectionTitle": "Database Connection Error",
     "dbConnectionMessage": "Failed to establish connection with the database"
   },
+  "chart": {
+    "dataChart": "Chart Data",
+    "xAxis": "X Axis",
+    "yAxis": "Y Axis",
+    "chart": "Chart",
+    "showChart": "Show chart {{title}}",
+    "fullscreenButton": "Open chart in full screen",
+    "series": "Series {{number}}"
+  },  
   "operatorDialog": {
     "defaultTitle": "Message",
     "imageAlt": "Operator message image",

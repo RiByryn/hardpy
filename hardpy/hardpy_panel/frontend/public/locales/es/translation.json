@@ -11,23 +11,38 @@
       "connection": "Estableciendo conexión... 🧐🔎",
       "dbError": "Error de conexión a la base de datos. 🙅🏽‍♀️🚫",
       "noEntries": "No hay entradas en la base de datos 🙅🏽‍♀️🚫",
+      "stoppedTestCase": "Caso de prueba detenido",
+      "failedTestCases": "Casos de prueba fallidos",
+      "modalResultDismissHint": "Haga clic en cualquier lugar o presione cualquier tecla para cerrar",
+      "modalResultAutoDismissHint": "Cierre automático en {{seconds}} segundos...",
       "status": {
-        "ready": "listo",
-        "run": "ejecutando",
-        "passed": "aprobado",
-        "failed": "fallado",
-        "stopped": "detenido",
-        "unknown": "desconocido"
+        "ready": "Listo",
+        "run": "Ejecutando",
+        "passed": "Aprobado",
+        "failed": "Fallado",
+        "stopped": "Detenido",
+        "unknown": "Desconocido"
       }
   },
   "button": {
     "start": "Iniciar",
     "stop": "Detener",
-    "confirm": "Confirmar"
+    "confirm": "Confirmar",
+    "pass": "Aprobado",
+    "fail": "Fallado"
   },
   "error": {
     "dbConnectionTitle": "Error de conexión a la base de datos",
     "dbConnectionMessage": "No se pudo establecer la conexión con la base de datos"
+  },
+  "chart": {
+    "dataChart": "Datos del gráfico",
+    "xAxis": "Eje X",
+    "yAxis": "Eje Y",
+    "chart": "Gráfico",
+    "showChart": "Mostrar gráfico {{title}}",
+    "fullscreenButton": "Abrir gráfico en pantalla completa",
+    "series": "Serie {{number}}"
   },
   "operatorDialog": {
     "defaultTitle": "Mensaje",

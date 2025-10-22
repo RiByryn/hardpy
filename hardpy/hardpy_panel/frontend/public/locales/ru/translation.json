@@ -11,23 +11,38 @@
       "connection": "Установка соединения... 🧐🔎",
       "dbError": "Ошибка подключения к базе данных. 🙅🏽‍♀️🚫",
       "noEntries": "Нет записей в базе данных 🙅🏽‍♀️🚫",
+      "stoppedTestCase": "Остановленный тестовый случай",
+      "failedTestCases": "Проваленные тестовые случаи",
+      "modalResultDismissHint": "Нажмите на любое место на экране или нажмите любую клавишу для закрытия",
+      "modalResultAutoDismissHint": "Автоматическое закрытие через {{seconds}} секунд...",
       "status": {
-        "ready": "готов",
-        "run": "выполнение",
-        "passed": "успех",
-        "failed": "провалено",
-        "stopped": "остановлено",
-        "unknown": "неизвестно"
+        "ready": "Готов",
+        "run": "Выполнение",
+        "passed": "Успех",
+        "failed": "Провалено",
+        "stopped": "Остановлено",
+        "unknown": "Неизвестно"
       }
   },
   "button": {
     "start": "Старт",
     "stop": "Стоп",
-    "confirm": "Подтвердить"
+    "confirm": "Подтвердить",
+    "pass": "Успех",
+    "fail": "Провалено"
   },
   "error": {
     "dbConnectionTitle": "Ошибка подключения к базе данных",
     "dbConnectionMessage": "Не удалось установить соединение с базой данных"
+  },
+  "chart": {
+    "dataChart": "Данные графика",
+    "xAxis": "Ось X",
+    "yAxis": "Ось Y",
+    "chart": "График",
+    "showChart": "Показать график {{title}}",
+    "fullscreenButton": "Открыть график в полноэкранном режиме",
+    "series": "Серия {{number}}"
   },
   "operatorDialog": {
     "defaultTitle": "Сообщение",
