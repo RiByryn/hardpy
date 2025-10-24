@@ -1,5 +1,5 @@
 title = "HardPy TOML config"
-tests_name = "videotemplate"
+tests_name = "HMI Dialog Interface Validation Suite for Industrial Control Systems"
 
 [database]
 user = "dev"
@@ -10,11 +10,10 @@ port = 5984
 [frontend]
 host = "localhost"
 port = 8000
-language = "ru"
-full_size_button = true
-# sound_on = false
+language = "en"
+full_size_button = false
 
 [frontend.modal_result]
-enable = true
+enable = false
 auto_dismiss_pass = true
 auto_dismiss_timeout = 5

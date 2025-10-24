@@ -1,8 +1,8 @@
 import pytest
 
-from hardpy import CouchdbLoader, CouchdbConfig, get_current_report
+from hardpy import CouchdbConfig, CouchdbLoader, get_current_report
 
-pytestmark = pytest.mark.critical  # Все тесты критичные по умолчанию
+# pytestmark = pytest.mark.critical  # Все тесты критичные по умолчанию
 
 @pytest.hookimpl(trylast=True)
 def pytest_sessionfinish(session, exitstatus):
