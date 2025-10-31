@@ -1,5 +1,5 @@
 title = "HardPy TOML config"
-tests_name = "Hardpy"
+tests_name = "HardPy"
 
 [database]
 user = "dev"
@@ -12,9 +12,9 @@ host = "localhost"
 port = 8000
 language = "en"
 full_size_button = false
-sound_on = false
+# sound_on = false
 
 [frontend.modal_result]
 enable = true
 auto_dismiss_pass = true
-auto_dismiss_timeout = 5
+auto_dismiss_timeout = 3

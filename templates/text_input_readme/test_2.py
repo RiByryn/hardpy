@@ -13,8 +13,8 @@ pytestmark = pytest.mark.module_name("Main tests")
 @pytest.mark.case_name("Text input")
 def test_text_input():
     dbx = DialogBox(
-        dialog_text="Type 'ok' and press Pass or Fail button",
-        title_bar="Example of text input with pass/fail",
+        dialog_text="Type 'ok' and press Confirm button",
+        title_bar="Example of text input",
         widget=TextInputWidget(),
         font_size=18,
     )

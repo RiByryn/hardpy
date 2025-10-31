@@ -117,6 +117,17 @@
             ]
         },
         {
+            "name": "Python: For video",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "hardpy.cli.cli",
+            "console": "integratedTerminal",
+            "args": [
+                "run",
+                "templates/text_input_readme"
+            ]
+        },
+        {
             "name": "Python: Example CouchDB load",
             "type": "debugpy",
             "request": "launch",
